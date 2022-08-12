@@ -73,12 +73,12 @@ body {
   border-radius: 50%;
   position: absolute;
   top: 0px;
-  animation: dropIn 750ms
+  animation: dropIn 1000ms
 }
 
 @keyframes dropIn {
   from {
-    top:-1000%;
+    top:-2000%;
   }
 
   to {
