@@ -4,9 +4,21 @@
   <link href="connect4.css" rel="stylesheet">
 </head>
 <body>
+<div id="title">
+  <h1>CONNECT4</h1>
+</div>
 
 <div id="game">
   <table id="board"></table>
+</div id="formDiv">
+<form>
+  <input type="number" placeholder="Rows, ex. 6" id="rows" />
+  <input type="number" placeholder="Columns, ex. 7" id="columns" /> <br>
+  <input type="text" placeholder="Player One Color, ex. Blue" id="player1"/>
+  <input type="text" placeholder="Player Two Color, ex. Red" id="player2"/>
+</form>
+<div id="buttonDiv">
+  <button id="startBtn">Start a new game!</button>
 </div>
 
 <script src="connect4.js"></script>
